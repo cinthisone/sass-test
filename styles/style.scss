@@ -1,0 +1,28 @@
+$primaryBtn: rgb(56, 209, 51);
+$textColor: black;
+
+header{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    button{
+        background: $primaryBtn;
+        &:hover{
+            background: red;
+        }
+    }
+
+    p{
+        color: $textColor;
+    }
+}
+
+
+
+
+.contact button{
+    background: $primaryBtn;
+}
+
+
+// Nesting
